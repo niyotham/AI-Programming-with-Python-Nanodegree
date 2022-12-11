@@ -3,18 +3,18 @@ This repository contains my submissions for the nanodegree program [AI Programmi
 
 Please note that the foundation of the code was provided by Udacity as a starting point for the projects.
 
-# Pre-trained Image Classifier to Identify Dog Breeds
+## Pre-trained Image Classifier to Identify Dog Breeds
 The first project dealt with using a given image classifier in order to identify dog breeds. The focus was not on training or building the classifier, but on demonstrating the necessary Python skills for setting up a machine learning project, i.e. dealing with the data, looking at different metrics, inspecting results and run times of different classifiers.
 
-Own Image Classifier
+## Own Image Classifier
 The second project dealt with building an image classifier almost from scratch. Only the very basic foundation of the code was given (i.e. some helper functions and tips). My submission included:
 
-reading and transforming the data
-choosing a suitable (pretrained) network architecture
-defining a suitable classifier for the chosen architecture
-training the neural network
-evaluating the neural network
-saving and loading checkpoints of the neural network
+[x]reading and transforming the data
+[x]choosing a suitable (pretrained) network architecture
+[x] defining a suitable classifier for the chosen architecture
+[x] training the neural network
+[x]evaluating the neural network
+[x]saving and loading checkpoints of the neural network
 illustrating the predictions visually with the corresponding probabilities
 The first goal of the project was to implement the above described functionality in a Jupyter Notebook. The second goal was to build a command line application allowing the user to:
 
