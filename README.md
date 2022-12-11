@@ -21,10 +21,7 @@ The first goal of the project was to implement the above described functionality
 The second goal was to build a command line application allowing the user to:
 
 * choose different network architectures 
-``` vgg16, 
-vgg19
-
-``` 
+`vgg16, vgg19` 
 * customize the hyperparameters (epochs, learning_rate, hidden units)
 * use a GPU for training (if available)
 * save and load the model
