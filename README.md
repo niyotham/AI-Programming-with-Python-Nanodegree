@@ -10,24 +10,32 @@ The first project dealt with using a given image classifier in order to identify
 The second project dealt with building an image classifier almost from scratch. Only the very basic foundation of the code was given (i.e. some helper functions and tips). My submission included:
 
 * reading and transforming the data
-[] choosing a suitable (pretrained) network architecture
-[] defining a suitable classifier for the chosen architecture
-[x] training the neural network
-[x]evaluating the neural network
-[x]saving and loading checkpoints of the neural network
-illustrating the predictions visually with the corresponding probabilities
-The first goal of the project was to implement the above described functionality in a Jupyter Notebook. The second goal was to build a command line application allowing the user to:
+* choosing a suitable (pretrained) network architecture
+* defining a suitable classifier for the chosen architecture
+* training the neural network
+* evaluating the neural network
+* saving and loading checkpoints of the neural network
+* illustrating the predictions visually with the corresponding probabilities
 
-choose different network architectures (vgg13, vgg16, alexnet)
-customize the hyperparameters (epochs, learning_rate, hidden units)
-use a GPU for training (if available)
-save and load the model
-use the model to make predictions
-Training
-Checkout this repository and navigate into image_classifier_flowers/ImageClassifier
+The first goal of the project was to implement the above described functionality in a Jupyter Notebook. 
+The second goal was to build a command line application allowing the user to:
+
+* choose different network architectures 
+``` vgg16, 
+vgg19
+
+``` 
+* customize the hyperparameters (epochs, learning_rate, hidden units)
+* use a GPU for training (if available)
+* save and load the model
+* use the model to make predictions
+
+## Training
+Checkout this repository and navigate into (image_classifier_flowers/ImageClassifier)
 Run python train.py <data_directory> (the script is written in such a way that the user is informed about all the steps taken (building the network, training, ...))
 To see all the possible customizations, run python train.py --h
-Predicting
+
+## Predicting
 Checkout this repository and navigate into image_classifier_flowers/ImageClassifier
 Run python predict.py <path_to_image> <checkpoint> (note that a valid checkpoint needs to be given)
 To see all the possible customizations, run python predict.py --h
