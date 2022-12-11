@@ -33,6 +33,8 @@ Run python train.py <data_directory> (the script is written in such a way that t
 To see all the possible customizations, run python train.py --h
 
 ## Predicting
-Checkout this repository and navigate into image_classifier_flowers/ImageClassifier
-Run python predict.py <path_to_image> <checkpoint> (note that a valid checkpoint needs to be given)
-To see all the possible customizations, run python predict.py --h
+1. Checkout this repository and navigate into image_classifier_flowers/ImageClassifier
+2. Run python `predict.py <path_to_image> <checkpoint>`
+> a valid checkpoint needs to be given
+
+3. To see all the possible customizations, run `python predict.py --h`
