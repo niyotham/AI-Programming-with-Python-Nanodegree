@@ -9,9 +9,9 @@ The first project dealt with using a given image classifier in order to identify
 ## Own Image Classifier
 The second project dealt with building an image classifier almost from scratch. Only the very basic foundation of the code was given (i.e. some helper functions and tips). My submission included:
 
-[x]reading and transforming the data
-[x]choosing a suitable (pretrained) network architecture
-[x] defining a suitable classifier for the chosen architecture
+* reading and transforming the data
+[] choosing a suitable (pretrained) network architecture
+[] defining a suitable classifier for the chosen architecture
 [x] training the neural network
 [x]evaluating the neural network
 [x]saving and loading checkpoints of the neural network
